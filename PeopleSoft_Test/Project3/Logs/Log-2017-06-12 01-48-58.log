@@ -1,0 +1,14 @@
+2017-06-12 13:48:59 INFO  SeleniumUtil:85 - delete log from logs folder before day :1
+2017-06-12 13:48:59 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:48:59 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:48:59 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:48:59 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:48:59 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:48:59 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:48:59 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:48:59 INFO  GlobalStepDefinition:18 - Inside user_is_login 1
+2017-06-12 13:48:59 INFO  GlobalStepDefinition:25 - Inside user_clicks_on_link 1
+2017-06-12 13:48:59 INFO  GlobalStepDefinition:18 - Inside user_is_login 2
+2017-06-12 13:48:59 INFO  GlobalStepDefinition:25 - Inside user_clicks_on_link 2
+2017-06-12 13:48:59 INFO  GlobalStepDefinition:18 - Inside user_is_login 3
+2017-06-12 13:48:59 INFO  GlobalStepDefinition:25 - Inside user_clicks_on_link 3

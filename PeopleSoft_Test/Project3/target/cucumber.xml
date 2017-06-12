@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.232552">
+<testcase classname="Jenkins related scenarios" name="Click on link 1" time="0.226513">
+<failure message="java.lang.AssertionError: fail&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)&#13;&#10;&#9;at ✽.When user clicks on link 1(JenkinsTest.feature:8)&#13;&#10;"><![CDATA[Given user 1 is login.......................................................passed
+When user clicks on link 1..................................................failed
+Then TC1 is successful......................................................skipped
+
+StackTrace:
+java.lang.AssertionError: fail
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)
+	at ✽.When user clicks on link 1(JenkinsTest.feature:8)
+]]></failure>
+</testcase>
+<testcase classname="Jenkins related scenarios" name="Click on link 2" time="0.002981">
+<failure message="java.lang.AssertionError: fail&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)&#13;&#10;&#9;at ✽.When user clicks on link 2(JenkinsTest.feature:14)&#13;&#10;"><![CDATA[Given user 2 is login.......................................................passed
+When user clicks on link 2..................................................failed
+Then TC2 is successful......................................................skipped
+
+StackTrace:
+java.lang.AssertionError: fail
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)
+	at ✽.When user clicks on link 2(JenkinsTest.feature:14)
+]]></failure>
+</testcase>
+<testcase classname="Jenkins related scenarios" name="Click on link 3" time="0.003058">
+<failure message="java.lang.AssertionError: fail&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)&#13;&#10;&#9;at ✽.When user clicks on link 3(JenkinsTest.feature:21)&#13;&#10;"><![CDATA[Given user 3 is login.......................................................passed
+When user clicks on link 3..................................................failed
+Then TC3 is successful......................................................skipped
+
+StackTrace:
+java.lang.AssertionError: fail
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)
+	at ✽.When user clicks on link 3(JenkinsTest.feature:21)
+]]></failure>
+</testcase>
+</testsuite>

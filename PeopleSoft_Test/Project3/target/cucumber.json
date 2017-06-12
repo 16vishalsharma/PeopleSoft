@@ -1,0 +1,294 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1016288,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobalStepDefinition.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Click on link 1",
+        "description": "",
+        "id": "jenkins-related-scenarios;click-on-link-1",
+        "after": [
+          {
+            "result": {
+              "duration": 384957,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobalStepDefinition.TearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 220867484,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user 1 is login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 5
+                }
+              ],
+              "location": "Jenkins.user_is_login(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4244328,
+              "error_message": "java.lang.AssertionError: fail\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)\r\n\tat ✽.When user clicks on link 1(JenkinsTest.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "user clicks on link 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 20
+                }
+              ],
+              "location": "Jenkins.user_clicks_on_link(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "TC1 is successful",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 2
+                }
+              ],
+              "location": "Jenkins.tc_is_successful(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@TC1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 778780,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobalStepDefinition.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Click on link 2",
+        "description": "",
+        "id": "jenkins-related-scenarios;click-on-link-2",
+        "after": [
+          {
+            "result": {
+              "duration": 336430,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobalStepDefinition.TearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 863238,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user 2 is login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 5
+                }
+              ],
+              "location": "Jenkins.user_is_login(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002289,
+              "error_message": "java.lang.AssertionError: fail\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)\r\n\tat ✽.When user clicks on link 2(JenkinsTest.feature:14)\r\n",
+              "status": "failed"
+            },
+            "line": 14,
+            "name": "user clicks on link 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 20
+                }
+              ],
+              "location": "Jenkins.user_clicks_on_link(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "TC2 is successful",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 2
+                }
+              ],
+              "location": "Jenkins.tc_is_successful(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@TC2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 761049,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobalStepDefinition.Setup(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Click on link 3",
+        "description": "",
+        "id": "jenkins-related-scenarios;click-on-link-3",
+        "after": [
+          {
+            "result": {
+              "duration": 293968,
+              "status": "passed"
+            },
+            "match": {
+              "location": "GlobalStepDefinition.TearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 774581,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user 3 is login",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 5
+                }
+              ],
+              "location": "Jenkins.user_is_login(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1228130,
+              "error_message": "java.lang.AssertionError: fail\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)\r\n\tat ✽.When user clicks on link 3(JenkinsTest.feature:21)\r\n",
+              "status": "failed"
+            },
+            "line": 21,
+            "name": "user clicks on link 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 20
+                }
+              ],
+              "location": "Jenkins.user_clicks_on_link(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "TC3 is successful",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 2
+                }
+              ],
+              "location": "Jenkins.tc_is_successful(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 18,
+            "name": "@TC3"
+          }
+        ]
+      }
+    ],
+    "name": "Jenkins related scenarios",
+    "description": "",
+    "id": "jenkins-related-scenarios",
+    "keyword": "Feature",
+    "uri": "JenkinsTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@JenkinsTest"
+      }
+    ]
+  }
+]

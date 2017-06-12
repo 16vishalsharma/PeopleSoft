@@ -1,0 +1,46 @@
+-------------------------------------------------------------------------------
+Test set: com.ingcapgemini.wm.action.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 3, Time elapsed: 14.426 sec <<< FAILURE! - in com.ingcapgemini.wm.action.TestRunner
+When user clicks on link 1(Scenario: Click on link 1)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: fail
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)
+	at ?.When user clicks on link 1(JenkinsTest.feature:8)
+
+Scenario: Click on link 1  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: fail
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)
+	at ?.When user clicks on link 1(JenkinsTest.feature:8)
+
+When user clicks on link 2(Scenario: Click on link 2)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: fail
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)
+	at ?.When user clicks on link 2(JenkinsTest.feature:14)
+
+Scenario: Click on link 2  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: fail
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)
+	at ?.When user clicks on link 2(JenkinsTest.feature:14)
+
+When user clicks on link 3(Scenario: Click on link 3)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: fail
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)
+	at ?.When user clicks on link 3(JenkinsTest.feature:21)
+
+Scenario: Click on link 3  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: fail
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at com.ingcapgemini.wm.story.leave.Jenkins.user_clicks_on_link(Jenkins.java:27)
+	at ?.When user clicks on link 3(JenkinsTest.feature:21)
+

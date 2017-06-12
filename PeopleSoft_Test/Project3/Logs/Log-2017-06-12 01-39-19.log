@@ -1,0 +1,404 @@
+2017-06-12 13:39:21 INFO  SeleniumUtil:85 - delete log from logs folder before day :1
+2017-06-12 13:39:21 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:39:21 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:39:21 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:39:21 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:39:21 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:39:21 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:39:21 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:39:21 DEBUG SeleniumUtil:93 - Logs deleted before days :1
+2017-06-12 13:39:21 INFO  GlobalStepDefinition:18 - Inside user_is_login 1
+2017-06-12 13:39:21 INFO  GlobalStepDefinition:25 - Inside user_clicks_on_link 1
+2017-06-12 13:39:22 INFO  WebConnector:65 - Inside IE browser initialization
+2017-06-12 13:39:27 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-06-12 13:39:27 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-06-12 13:39:27 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:25134][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:27 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:25134][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-06-12 13:39:27 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:25134
+2017-06-12 13:39:27 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:25134
+2017-06-12 13:39:27 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49299<->127.0.0.1:25134
+2017-06-12 13:39:27 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2017-06-12 13:39:27 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2017-06-12 13:39:27 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-06-12 13:39:27 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-06-12 13:39:27 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2017-06-12 13:39:27 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2017-06-12 13:39:27 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 587
+2017-06-12 13:39:27 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:25134
+2017-06-12 13:39:27 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2017-06-12 13:39:27 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-06-12 13:39:27 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 587[\r][\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:25134[\r][\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    "ensureCleanSession": true,[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    "se:ieOptions": {},[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    "browserName": "internet explorer",[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    "version": "",[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    "platform": "WINDOWS"[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "  },[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "  "requiredCapabilities": {},[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "      "ensureCleanSession": true,[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "      "se:ieOptions": {},[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "      "browserName": "internet explorer",[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "      "version": "",[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "      "platform": "WINDOWS"[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    "requiredCapabilities": {},[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    "alwaysMatch": {[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "      "se:ieOptions": {}[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    },[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "      {[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "        "browserName": "internet explorer"[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "      }[\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2017-06-12 13:39:27 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2017-06-12 13:39:27 DEBUG wire:87 - http-outgoing-0 >> "}"
+2017-06-12 13:39:37 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 500 Internal Server Error[\r][\n]"
+2017-06-12 13:39:37 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 229[\r][\n]"
+2017-06-12 13:39:37 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2017-06-12 13:39:37 DEBUG wire:73 - http-outgoing-0 << "Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept[\r][\n]"
+2017-06-12 13:39:37 DEBUG wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+2017-06-12 13:39:37 DEBUG wire:73 - http-outgoing-0 << "Connection: close[\r][\n]"
+2017-06-12 13:39:37 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-06-12 13:39:37 DEBUG wire:73 - http-outgoing-0 << "{"sessionId":"d95732d5-2e6a-4282-8b42-a918bff003d6","status":6,"value":{"message":"Unexpected error launching Internet Explorer. IELaunchURL() returned HRESULT 80070490 ('Element not found.') for URL 'http://localhost:25134/'"}}[\n]"
+2017-06-12 13:39:37 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2017-06-12 13:39:37 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 500 Internal Server Error
+2017-06-12 13:39:37 DEBUG headers:125 - http-outgoing-0 << Content-Length: 229
+2017-06-12 13:39:37 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json; charset=UTF-8
+2017-06-12 13:39:37 DEBUG headers:125 - http-outgoing-0 << Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept
+2017-06-12 13:39:37 DEBUG headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+2017-06-12 13:39:37 DEBUG headers:125 - http-outgoing-0 << Connection: close
+2017-06-12 13:39:37 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2017-06-12 13:39:37 DEBUG MainClientExec:104 - Connection discarded
+2017-06-12 13:39:37 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:25134][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:38 INFO  GlobalStepDefinition:18 - Inside user_is_login 2
+2017-06-12 13:39:38 INFO  GlobalStepDefinition:25 - Inside user_clicks_on_link 2
+2017-06-12 13:39:38 INFO  WebConnector:65 - Inside IE browser initialization
+2017-06-12 13:39:41 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-06-12 13:39:41 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-06-12 13:39:41 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:38232][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:41 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 1][route: {}->http://localhost:38232][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-06-12 13:39:41 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:38232
+2017-06-12 13:39:41 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:38232
+2017-06-12 13:39:41 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49306<->127.0.0.1:38232
+2017-06-12 13:39:41 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 10800000
+2017-06-12 13:39:41 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2017-06-12 13:39:41 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-06-12 13:39:41 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-06-12 13:39:41 DEBUG headers:133 - http-outgoing-1 >> POST /session HTTP/1.1
+2017-06-12 13:39:41 DEBUG headers:136 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2017-06-12 13:39:41 DEBUG headers:136 - http-outgoing-1 >> Content-Length: 587
+2017-06-12 13:39:41 DEBUG headers:136 - http-outgoing-1 >> Host: localhost:38232
+2017-06-12 13:39:41 DEBUG headers:136 - http-outgoing-1 >> Connection: Keep-Alive
+2017-06-12 13:39:41 DEBUG headers:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-06-12 13:39:41 DEBUG headers:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "POST /session HTTP/1.1[\r][\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "Content-Length: 587[\r][\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "Host: localhost:38232[\r][\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "[\r][\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "{[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "  "desiredCapabilities": {[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    "ensureCleanSession": true,[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    "se:ieOptions": {},[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    "browserName": "internet explorer",[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    "version": "",[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    "platform": "WINDOWS"[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "  },[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "  "requiredCapabilities": {},[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "  "capabilities": {[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    "desiredCapabilities": {[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "      "ensureCleanSession": true,[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "      "se:ieOptions": {},[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "      "browserName": "internet explorer",[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "      "version": "",[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "      "platform": "WINDOWS"[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    },[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    "requiredCapabilities": {},[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    "alwaysMatch": {[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "      "se:ieOptions": {}[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    },[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    "firstMatch": [[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "      {[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "        "browserName": "internet explorer"[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "      }[\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "    ][\n]"
+2017-06-12 13:39:41 DEBUG wire:73 - http-outgoing-1 >> "  }[\n]"
+2017-06-12 13:39:41 DEBUG wire:87 - http-outgoing-1 >> "}"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-1 << "Content-Length: 762[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-1 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-1 << "Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-1 << "Accept-Ranges: bytes[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-1 << "Connection: close[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-1 << "[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-1 << "{"sessionId":"a5b2b686-f3b4-423d-aac8-a6d03b3e5b3d","status":0,"value":{"browserName":"internet explorer","javascriptEnabled":true,"pageLoadStrategy":"normal","platform":"WINDOWS","se:ieOptions":{"browserAttachTimeout":0,"elementScrollBehavior":0,"enableElementCacheCleanup":true,"enablePersistentHover":true,"ie.browserCommandLineSwitches":"","ie.enableFullPageScreenshot":true,"ie.ensureCleanSession":false,"ie.fileUploadDialogTimeout":3000,"ie.forceCreateProcessApi":false,"ie.forceShellWindowsApi":false,"ie.useLegacyFileUploadDialogHandling":false,"ignoreProtectedModeSettings":false,"ignoreZoomSetting":false,"initialBrowserUrl":"http://localhost:38232/","nativeEvents":true,"requireWindowFocus":false},"unexpectedAlertBehaviour":"dismiss","version":"8"}}[\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-1 << "[\r][\n]"
+2017-06-12 13:39:45 DEBUG headers:122 - http-outgoing-1 << HTTP/1.1 200 OK
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-1 << Content-Length: 762
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-1 << Content-Type: application/json; charset=UTF-8
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-1 << Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-1 << Accept-Ranges: bytes
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-1 << Connection: close
+2017-06-12 13:39:45 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-1: Close connection
+2017-06-12 13:39:45 DEBUG MainClientExec:104 - Connection discarded
+2017-06-12 13:39:45 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:38232][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:45 DEBUG WebConnector:70 - IE Browser launched successfully
+2017-06-12 13:39:45 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-06-12 13:39:45 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-06-12 13:39:45 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:38232][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:45 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 2][route: {}->http://localhost:38232][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-06-12 13:39:45 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:38232
+2017-06-12 13:39:45 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:38232
+2017-06-12 13:39:45 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49337<->127.0.0.1:38232
+2017-06-12 13:39:45 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-2: set socket timeout to 10800000
+2017-06-12 13:39:45 DEBUG MainClientExec:256 - Executing request GET /session/a5b2b686-f3b4-423d-aac8-a6d03b3e5b3d/screenshot HTTP/1.1
+2017-06-12 13:39:45 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-06-12 13:39:45 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-06-12 13:39:45 DEBUG headers:133 - http-outgoing-2 >> GET /session/a5b2b686-f3b4-423d-aac8-a6d03b3e5b3d/screenshot HTTP/1.1
+2017-06-12 13:39:45 DEBUG headers:136 - http-outgoing-2 >> Cache-Control: no-cache
+2017-06-12 13:39:45 DEBUG headers:136 - http-outgoing-2 >> Host: localhost:38232
+2017-06-12 13:39:45 DEBUG headers:136 - http-outgoing-2 >> Connection: Keep-Alive
+2017-06-12 13:39:45 DEBUG headers:136 - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-06-12 13:39:45 DEBUG headers:136 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 >> "GET /session/a5b2b686-f3b4-423d-aac8-a6d03b3e5b3d/screenshot HTTP/1.1[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 >> "Cache-Control: no-cache[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 >> "Host: localhost:38232[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 >> "[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 << "Content-Length: 3511[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 << "Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 << "Accept-Ranges: bytes[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 << "Connection: close[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 << "[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 << "{"sessionId":"a5b2b686-f3b4-423d-aac8-a6d03b3e5b3d","status":0,"value":"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"}[\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-2 << "[\r][\n]"
+2017-06-12 13:39:45 DEBUG headers:122 - http-outgoing-2 << HTTP/1.1 200 OK
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-2 << Content-Length: 3511
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-2 << Content-Type: application/json; charset=UTF-8
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-2 << Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-2 << Accept-Ranges: bytes
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-2 << Connection: close
+2017-06-12 13:39:45 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-2: Close connection
+2017-06-12 13:39:45 DEBUG MainClientExec:104 - Connection discarded
+2017-06-12 13:39:45 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 2][route: {}->http://localhost:38232][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:45 INFO  SeleniumUtil:67 - Inside CloseBrowser
+2017-06-12 13:39:45 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-06-12 13:39:45 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-06-12 13:39:45 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:38232][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:45 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 3][route: {}->http://localhost:38232][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-06-12 13:39:45 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:38232
+2017-06-12 13:39:45 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:38232
+2017-06-12 13:39:45 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49338<->127.0.0.1:38232
+2017-06-12 13:39:45 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-3: set socket timeout to 10800000
+2017-06-12 13:39:45 DEBUG MainClientExec:256 - Executing request DELETE /session/a5b2b686-f3b4-423d-aac8-a6d03b3e5b3d/window HTTP/1.1
+2017-06-12 13:39:45 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-06-12 13:39:45 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-06-12 13:39:45 DEBUG headers:133 - http-outgoing-3 >> DELETE /session/a5b2b686-f3b4-423d-aac8-a6d03b3e5b3d/window HTTP/1.1
+2017-06-12 13:39:45 DEBUG headers:136 - http-outgoing-3 >> Host: localhost:38232
+2017-06-12 13:39:45 DEBUG headers:136 - http-outgoing-3 >> Connection: Keep-Alive
+2017-06-12 13:39:45 DEBUG headers:136 - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-06-12 13:39:45 DEBUG headers:136 - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 >> "DELETE /session/a5b2b686-f3b4-423d-aac8-a6d03b3e5b3d/window HTTP/1.1[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 >> "Host: localhost:38232[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 >> "[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 << "Content-Length: 77[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 << "Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 << "Accept-Ranges: bytes[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 << "Connection: close[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 << "[\r][\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 << "{"sessionId":"a5b2b686-f3b4-423d-aac8-a6d03b3e5b3d","status":0,"value":null}[\n]"
+2017-06-12 13:39:45 DEBUG wire:73 - http-outgoing-3 << "[\r][\n]"
+2017-06-12 13:39:45 DEBUG headers:122 - http-outgoing-3 << HTTP/1.1 200 OK
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-3 << Content-Length: 77
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-3 << Content-Type: application/json; charset=UTF-8
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-3 << Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-3 << Accept-Ranges: bytes
+2017-06-12 13:39:45 DEBUG headers:125 - http-outgoing-3 << Connection: close
+2017-06-12 13:39:45 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-3: Close connection
+2017-06-12 13:39:45 DEBUG MainClientExec:104 - Connection discarded
+2017-06-12 13:39:45 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 3][route: {}->http://localhost:38232][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:45 DEBUG SeleniumUtil:69 - Closed Browser
+2017-06-12 13:39:45 INFO  GlobalStepDefinition:18 - Inside user_is_login 3
+2017-06-12 13:39:45 INFO  GlobalStepDefinition:25 - Inside user_clicks_on_link 3
+2017-06-12 13:39:45 INFO  WebConnector:65 - Inside IE browser initialization
+2017-06-12 13:39:46 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-06-12 13:39:46 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-06-12 13:39:46 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:21853][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:46 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 4][route: {}->http://localhost:21853][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-06-12 13:39:46 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:21853
+2017-06-12 13:39:46 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:21853
+2017-06-12 13:39:46 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49341<->127.0.0.1:21853
+2017-06-12 13:39:46 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-4: set socket timeout to 10800000
+2017-06-12 13:39:46 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2017-06-12 13:39:46 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-06-12 13:39:46 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-06-12 13:39:46 DEBUG headers:133 - http-outgoing-4 >> POST /session HTTP/1.1
+2017-06-12 13:39:46 DEBUG headers:136 - http-outgoing-4 >> Content-Type: application/json; charset=utf-8
+2017-06-12 13:39:46 DEBUG headers:136 - http-outgoing-4 >> Content-Length: 587
+2017-06-12 13:39:46 DEBUG headers:136 - http-outgoing-4 >> Host: localhost:21853
+2017-06-12 13:39:46 DEBUG headers:136 - http-outgoing-4 >> Connection: Keep-Alive
+2017-06-12 13:39:46 DEBUG headers:136 - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-06-12 13:39:46 DEBUG headers:136 - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "POST /session HTTP/1.1[\r][\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "Content-Length: 587[\r][\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "Host: localhost:21853[\r][\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "[\r][\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "{[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "  "desiredCapabilities": {[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    "ensureCleanSession": true,[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    "se:ieOptions": {},[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    "browserName": "internet explorer",[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    "version": "",[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    "platform": "WINDOWS"[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "  },[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "  "requiredCapabilities": {},[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "  "capabilities": {[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    "desiredCapabilities": {[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "      "ensureCleanSession": true,[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "      "se:ieOptions": {},[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "      "browserName": "internet explorer",[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "      "version": "",[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "      "platform": "WINDOWS"[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    },[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    "requiredCapabilities": {},[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    "alwaysMatch": {[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "      "se:ieOptions": {}[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    },[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    "firstMatch": [[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "      {[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "        "browserName": "internet explorer"[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "      }[\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "    ][\n]"
+2017-06-12 13:39:46 DEBUG wire:73 - http-outgoing-4 >> "  }[\n]"
+2017-06-12 13:39:46 DEBUG wire:87 - http-outgoing-4 >> "}"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-4 << "Content-Length: 762[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-4 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-4 << "Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-4 << "Accept-Ranges: bytes[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-4 << "Connection: close[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-4 << "[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-4 << "{"sessionId":"9926a9ec-070e-4c47-81c8-0d7feb71f09b","status":0,"value":{"browserName":"internet explorer","javascriptEnabled":true,"pageLoadStrategy":"normal","platform":"WINDOWS","se:ieOptions":{"browserAttachTimeout":0,"elementScrollBehavior":0,"enableElementCacheCleanup":true,"enablePersistentHover":true,"ie.browserCommandLineSwitches":"","ie.enableFullPageScreenshot":true,"ie.ensureCleanSession":false,"ie.fileUploadDialogTimeout":3000,"ie.forceCreateProcessApi":false,"ie.forceShellWindowsApi":false,"ie.useLegacyFileUploadDialogHandling":false,"ignoreProtectedModeSettings":false,"ignoreZoomSetting":false,"initialBrowserUrl":"http://localhost:21853/","nativeEvents":true,"requireWindowFocus":false},"unexpectedAlertBehaviour":"dismiss","version":"8"}}[\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-4 << "[\r][\n]"
+2017-06-12 13:39:48 DEBUG headers:122 - http-outgoing-4 << HTTP/1.1 200 OK
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-4 << Content-Length: 762
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-4 << Content-Type: application/json; charset=UTF-8
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-4 << Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-4 << Accept-Ranges: bytes
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-4 << Connection: close
+2017-06-12 13:39:48 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-4: Close connection
+2017-06-12 13:39:48 DEBUG MainClientExec:104 - Connection discarded
+2017-06-12 13:39:48 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 4][route: {}->http://localhost:21853][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:48 DEBUG WebConnector:70 - IE Browser launched successfully
+2017-06-12 13:39:48 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-06-12 13:39:48 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-06-12 13:39:48 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:21853][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:48 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 5][route: {}->http://localhost:21853][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-06-12 13:39:48 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:21853
+2017-06-12 13:39:48 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:21853
+2017-06-12 13:39:48 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49357<->127.0.0.1:21853
+2017-06-12 13:39:48 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-5: set socket timeout to 10800000
+2017-06-12 13:39:48 DEBUG MainClientExec:256 - Executing request GET /session/9926a9ec-070e-4c47-81c8-0d7feb71f09b/screenshot HTTP/1.1
+2017-06-12 13:39:48 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-06-12 13:39:48 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-06-12 13:39:48 DEBUG headers:133 - http-outgoing-5 >> GET /session/9926a9ec-070e-4c47-81c8-0d7feb71f09b/screenshot HTTP/1.1
+2017-06-12 13:39:48 DEBUG headers:136 - http-outgoing-5 >> Cache-Control: no-cache
+2017-06-12 13:39:48 DEBUG headers:136 - http-outgoing-5 >> Host: localhost:21853
+2017-06-12 13:39:48 DEBUG headers:136 - http-outgoing-5 >> Connection: Keep-Alive
+2017-06-12 13:39:48 DEBUG headers:136 - http-outgoing-5 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-06-12 13:39:48 DEBUG headers:136 - http-outgoing-5 >> Accept-Encoding: gzip,deflate
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 >> "GET /session/9926a9ec-070e-4c47-81c8-0d7feb71f09b/screenshot HTTP/1.1[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 >> "Cache-Control: no-cache[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 >> "Host: localhost:21853[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 >> "[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 << "Content-Length: 3511[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 << "Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 << "Accept-Ranges: bytes[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 << "Connection: close[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 << "[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 << "{"sessionId":"9926a9ec-070e-4c47-81c8-0d7feb71f09b","status":0,"value":"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"}[\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-5 << "[\r][\n]"
+2017-06-12 13:39:48 DEBUG headers:122 - http-outgoing-5 << HTTP/1.1 200 OK
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-5 << Content-Length: 3511
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-5 << Content-Type: application/json; charset=UTF-8
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-5 << Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-5 << Accept-Ranges: bytes
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-5 << Connection: close
+2017-06-12 13:39:48 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-5: Close connection
+2017-06-12 13:39:48 DEBUG MainClientExec:104 - Connection discarded
+2017-06-12 13:39:48 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 5][route: {}->http://localhost:21853][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:48 INFO  SeleniumUtil:67 - Inside CloseBrowser
+2017-06-12 13:39:48 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2017-06-12 13:39:48 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2017-06-12 13:39:48 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:21853][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:48 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 6][route: {}->http://localhost:21853][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2017-06-12 13:39:48 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:21853
+2017-06-12 13:39:48 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:21853
+2017-06-12 13:39:48 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49358<->127.0.0.1:21853
+2017-06-12 13:39:48 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-6: set socket timeout to 10800000
+2017-06-12 13:39:48 DEBUG MainClientExec:256 - Executing request DELETE /session/9926a9ec-070e-4c47-81c8-0d7feb71f09b/window HTTP/1.1
+2017-06-12 13:39:48 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2017-06-12 13:39:48 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2017-06-12 13:39:48 DEBUG headers:133 - http-outgoing-6 >> DELETE /session/9926a9ec-070e-4c47-81c8-0d7feb71f09b/window HTTP/1.1
+2017-06-12 13:39:48 DEBUG headers:136 - http-outgoing-6 >> Host: localhost:21853
+2017-06-12 13:39:48 DEBUG headers:136 - http-outgoing-6 >> Connection: Keep-Alive
+2017-06-12 13:39:48 DEBUG headers:136 - http-outgoing-6 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+2017-06-12 13:39:48 DEBUG headers:136 - http-outgoing-6 >> Accept-Encoding: gzip,deflate
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 >> "DELETE /session/9926a9ec-070e-4c47-81c8-0d7feb71f09b/window HTTP/1.1[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 >> "Host: localhost:21853[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 >> "[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 << "HTTP/1.1 200 OK[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 << "Content-Length: 77[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 << "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 << "Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 << "Accept-Ranges: bytes[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 << "Connection: close[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 << "[\r][\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 << "{"sessionId":"9926a9ec-070e-4c47-81c8-0d7feb71f09b","status":0,"value":null}[\n]"
+2017-06-12 13:39:48 DEBUG wire:73 - http-outgoing-6 << "[\r][\n]"
+2017-06-12 13:39:48 DEBUG headers:122 - http-outgoing-6 << HTTP/1.1 200 OK
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-6 << Content-Length: 77
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-6 << Content-Type: application/json; charset=UTF-8
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-6 << Vary: Accept-Charset, Accept-Encoding, Accept-Language, Accept
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-6 << Accept-Ranges: bytes
+2017-06-12 13:39:48 DEBUG headers:125 - http-outgoing-6 << Connection: close
+2017-06-12 13:39:48 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-6: Close connection
+2017-06-12 13:39:48 DEBUG MainClientExec:104 - Connection discarded
+2017-06-12 13:39:48 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 6][route: {}->http://localhost:21853][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2017-06-12 13:39:48 DEBUG SeleniumUtil:69 - Closed Browser
