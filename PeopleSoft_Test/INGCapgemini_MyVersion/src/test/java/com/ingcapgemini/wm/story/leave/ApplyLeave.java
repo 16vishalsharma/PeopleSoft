@@ -1,4 +1,4 @@
-package com.ingcapgemini.wm.story.leave;
+/*package com.ingcapgemini.wm.story.leave;
 
 import java.util.List;
 
@@ -27,14 +27,14 @@ public class ApplyLeave {
 	private static final Logger LOGGER=LogManager.getLogger(ApplyLeave.class);
 	public WebConnector webConnector=WebConnector.getInstance();
 	WebDriver driver=webConnector.getDriver();
-	/*@Given("^user \"(.*?)\" is logged into the application$")
+	@Given("^user \"(.*?)\" is logged into the application$")
 	public void user_is_logged_into_the_application(String userId) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		LOGGER.info("user "+userId+" is logged into the application"+LOGGER.getClass().getCanonicalName());
 		CommonUtil.login(userId);
 				
 	    
-	}*/
+	}
 
 
 	
@@ -97,3 +97,4 @@ public class ApplyLeave {
 	
 	
 }
+*/

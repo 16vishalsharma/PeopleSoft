@@ -25,6 +25,10 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class SeleniumUtil {
+
+	
+	//for one time driver object initialization
+	//private  static WebConnector SELENIUM=null;
 	
 	private static final Logger LOGGER = LogManager.getLogger(SeleniumUtil.class);
 	private static String ScreenShotFolder = System.getProperty("user.dir") + "//ScreenShot";
@@ -34,11 +38,30 @@ public class SeleniumUtil {
 	private static final int WEBLEMENT_SYNC = Integer
 			.parseInt(WebConnector.getConfigProperties().getProperty("WebElementSync"));
 
-	public static WebElement getWebElement(WebDriver driver, By by) {
+	
+	
+	/*//for one time driver object initialization
+		public  static void initializeSeleniumConnector() {
+			 SELENIUM = WebConnector.getInstance();
+		}
+
+		//for one time driver object initialization
+
+		public static WebDriver getDriver() {
+			return SELENIUM.getDriver();
+		}*/
+		
+		public static WebElement getWebElement(WebDriver driver, By by) {
+			LOGGER.debug("inside getWebElement");
+			WebElement webElement = driver.findElement(by);
+			return webElement;
+		}
+		
+	/*public static WebElement getWebElement( By by) {
 		LOGGER.debug("inside getWebElement");
-		WebElement webElement = driver.findElement(by);
+		WebElement webElement = SELENIUM.getDriver().findElement(by);
 		return webElement;
-	}
+	}*/
 
 	public static void takeScreenShot(WebDriver driver) throws IOException {
 		Date date = new Date();
@@ -47,7 +70,15 @@ public class SeleniumUtil {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(scrFile, new File(ScreenShotFolder + "//ScreenShot" + strDate));
 	}
-
+	
+/*	public static void takeScreenShot() throws IOException {
+		Date date = new Date();
+		SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy-hh-mm-ss-sss");
+		String strDate = formatter.format(date);
+		File scrFile = ((TakesScreenshot) SELENIUM.getDriver()).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(scrFile, new File(ScreenShotFolder + "//ScreenShot" + strDate));
+	}
+*/
 	public static String getSimpleDateFormate(Date date, String formate) {
 
 		SimpleDateFormat formatter = new SimpleDateFormat(formate);
@@ -58,27 +89,52 @@ public class SeleniumUtil {
 	public static String getTitle(WebDriver driver) {
 		return driver.getTitle();
 	}
-
+	
+	/*public static String getTitle() {
+		return SELENIUM.getDriver().getTitle();
+	}
+*/
 	/**
 	 * Close browser
 	 */
 
 	public static void closeBrowser(WebDriver driver) {
-		LOGGER.info("Inside CloseBrowser");
+		LOGGER.info("############################# Inside CloseBrowser #############################");
 		driver.close();
-		LOGGER.debug("Closed Browser");
+		LOGGER.debug("###################   Closed Browser #############################");
 	}
 
+	
+	/*public static void closeBrowser() {
+		if(SELENIUM !=null && SELENIUM.getDriver() !=null){
+		LOGGER.info("Inside CloseBrowser");
+		SELENIUM.getDriver().close();
+		SELENIUM.getDriver().quit();
+		SELENIUM.setDriver(null);
+		LOGGER.debug("Closed Browser");
+		}
+	}*/
+	
+	
 	public static void quitBrowser(WebDriver driver) {
 		driver.quit();
 	}
-
+	
 	public static void ImplicitWait(WebDriver driver) {
 
 		LOGGER.info(" print the sysn time " + BROWSER_SYNC);
 		driver.manage().timeouts().implicitlyWait(BROWSER_SYNC, TimeUnit.SECONDS);
 
 	}
+	
+	
+/*
+	public static void ImplicitWait() {
+
+		LOGGER.info(" print the sysn time " + BROWSER_SYNC);
+		SELENIUM.getDriver().manage().timeouts().implicitlyWait(BROWSER_SYNC, TimeUnit.SECONDS);
+
+	}*/
 
 	
 	public static void cleanFolder(int day,String folder){
@@ -95,6 +151,7 @@ public class SeleniumUtil {
 		
 		
 	}
+	
 	public static void ValidateWebElementPresence(WebDriver driver, By by) {
 		LOGGER.info("Inside ValidateWebElementPresence method"); 
 		WebDriverWait explicitWait = new WebDriverWait(driver, WEBLEMENT_SYNC);
@@ -103,14 +160,30 @@ public class SeleniumUtil {
 		LOGGER.info("Element is present: " + by);
 
 	}
-
 	
 	
+	/*public static void ValidateWebElementPresence(By by) {
+		LOGGER.info("Inside ValidateWebElementPresence method"); 
+		WebDriverWait explicitWait = new WebDriverWait(SELENIUM.getDriver(),WEBLEMENT_SYNC);
+		explicitWait.until(ExpectedConditions.presenceOfElementLocated(by));
 
+		LOGGER.info("Element is present: " + by);
+
+	}
+*/
+	
+	/*public static void selectWebList(By by, String val, String selectBy){
+		LOGGER.info("Inside selectWebList");
+			WebElement wb=SELENIUM.getDriver().findElement(by);
+				Select sel=new Select(wb);
+				*/
 	public static void selectWebList(WebDriver driver, By by, String val, String selectBy){
 		LOGGER.info("Inside selectWebList");
 			WebElement wb=driver.findElement(by);
 				Select sel=new Select(wb);
+						
+
+	
 				
 				switch(selectBy){
 				case "selectByVisibleText":
@@ -147,9 +220,20 @@ public class SeleniumUtil {
 		
 	}
 	
-public static void selectItemWebTable(WebDriver driver,By by,int columnfirst,int columnSecond,String firstvalue,String secondvalue,String selectValue){
-	WebElement table = driver.findElement(by);
-	 List<WebElement> rows=table.findElements(By.tagName("tr"));
+	
+	
+	/*public static void selectItemWebTable(By by,int columnfirst,int columnSecond,String firstvalue,String secondvalue,String selectValue){
+		WebElement table = SELENIUM.getDriver().findElement(by);
+		 List<WebElement> rows=table.findElements(By.tagName("tr"));*/
+		 
+		 
+	public static void selectItemWebTable(WebDriver driver,By by,int columnfirst,int columnSecond,String firstvalue,String secondvalue,String selectValue){
+		WebElement table = driver.findElement(by);
+		 List<WebElement> rows=table.findElements(By.tagName("tr"));
+
+		 
+		 
+
 	 
 	
    for (WebElement eachRow : rows) 

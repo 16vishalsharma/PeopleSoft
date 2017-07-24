@@ -1,9 +1,0 @@
-2017-06-27 23:24:43 INFO  SeleniumUtil:85 - delete log from logs folder before day :1
-2017-06-27 23:24:43 DEBUG SeleniumUtil:93 - Logs deleted before days :1
-2017-06-27 23:24:43 DEBUG SeleniumUtil:93 - Logs deleted before days :1
-2017-06-27 23:24:44 INFO  Jenkins:18 - Inside user_is_login 1
-2017-06-27 23:24:44 INFO  Jenkins:25 - Inside user_clicks_on_link 1
-2017-06-27 23:24:44 INFO  Jenkins:18 - Inside user_is_login 2
-2017-06-27 23:24:44 INFO  Jenkins:25 - Inside user_clicks_on_link 2
-2017-06-27 23:24:44 INFO  Jenkins:18 - Inside user_is_login 3
-2017-06-27 23:24:44 INFO  Jenkins:25 - Inside user_clicks_on_link 3
