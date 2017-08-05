@@ -122,7 +122,7 @@ public class SeleniumUtil {
 	
 	public static void ImplicitWait(WebDriver driver) {
 
-		LOGGER.info(" print the sysn time " + BROWSER_SYNC);
+		LOGGER.info(" print the sysc time " + BROWSER_SYNC);
 		driver.manage().timeouts().implicitlyWait(BROWSER_SYNC, TimeUnit.SECONDS);
 
 	}

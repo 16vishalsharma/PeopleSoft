@@ -1,4 +1,3 @@
-//helloo
 package com.ingcapgemini.wm.util;
 
 import org.apache.log4j.LogManager;
@@ -66,7 +65,7 @@ public class CommonUtil {
 		LOGGER.info("############  INSIDE LOGIN ########################");
 		driver.manage().window().maximize();
 		SeleniumUtil.ImplicitWait(driver);
-		driver.get(WebConnector.getConfigProperties().getProperty(System.getProperty("ENV") + "_App_URL"));
+		driver.get(WebConnector.getConfigProperties().getProperty(System.getProperty("ENV") + "_App_URL"));		
 		Assert.assertEquals("the page title is not matching", HomePage_PO.HOME_PAGE_TITLE, SeleniumUtil.getTitle(driver));
 		SeleniumUtil.ValidateWebElementPresence(driver, By.className(HomePage_PO.HOME_PAGE_SIGNIN_CLASSNAME));
 		driver.findElement(By.className(HomePage_PO.HOME_PAGE_SIGNIN_CLASSNAME)).click();
